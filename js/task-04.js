@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Counter</title>
-</head>
-<body>
 
-  <div id="counter">
-    <button type="button" data-action="decrement">-1</button>
-    <span id="value">0</span>
-    <button type="button" data-action="increment">+1</button>
-  </div>
-
-  <script>
     // Initialize counter value
     let counterValue = 0;
 
@@ -37,7 +22,3 @@
       // Update the interface
       valueSpan.textContent = counterValue;
     });
-  </script>
-
-</body>
-</html>
